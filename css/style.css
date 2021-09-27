@@ -1,0 +1,532 @@
+@import url(normalize.css);
+@font-face {
+    font-family: 'AvenirNextCyr';
+    src: url(../fonts/AvenirNextCyr-Bold.woff);
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: 'AvenirNextCyr';
+    src: url(../fonts/AvenirNextCyr-Heavy.woff);
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: 'AvenirNextCyr';
+    src: url(../fonts/AvenirNextCyr-Demi.woff);
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: 'AvenirNextCyr';
+    src: url(../fonts/AvenirNextCyr-Regular.woff);
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: 'AvenirNextCyr';
+    src: url(../fonts/AvenirNextCyr-Medium.woff);
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal
+}
+
+body {
+    font-family: 'AvenirNextCyr', sans-serif;
+}
+
+.WithPremo {
+    background: #111111 no-repeat;
+    background-image: url(../img/WithPremo-bg.png);
+    padding: 115px 127px 50px;
+}
+
+.WithPremo__top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    margin-bottom: 46px;
+}
+
+.WithPremo__top-back {}
+
+.WithPremo__top-logo {
+    margin: 0 auto;
+    display: block;
+}
+
+.WithPremo h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 91px;
+    line-height: 88px;
+    text-align: center;
+    font-variant: small-caps;
+    color: #FFFFFF;
+    max-width: 762px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+}
+
+.WithPremo h1 span {
+    color: #AD1544;
+}
+
+.WithPremo p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 523px;
+    margin: 0 auto;
+    margin-bottom: 103px;
+}
+
+.hoodieShow__list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+    grid-template-columns: repeat(3, 1fr);
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.hoodieShow__list img {
+    width: 100%;
+    height: 100%;
+}
+
+.hoodieShow p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 27px auto;
+}
+
+.btn-buy {
+    font-style: normal;
+    font-weight: 450;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    border: 3px solid #AD1544;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 82px;
+    color: #FFFFFF;
+    -webkit-border-radius: 82px;
+    -moz-border-radius: 82px;
+    -ms-border-radius: 82px;
+    -o-border-radius: 82px;
+    width: 176px;
+    height: 41px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-decoration: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto;
+    transition: .3s;
+    margin-top: 27px;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.btn-buy:hover {
+    background: #AD1544;
+}
+
+.hoodieDevelopment {
+    padding: 100px 127px;
+}
+
+.hoodieDevelopment__list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.hoodieDevelopment__list img {
+    width: 100%;
+}
+
+.hoodieDevelopment p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+    margin: 27px 0;
+}
+
+.btn-development {
+    border: 3px solid #AD1544;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 82px;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 236px;
+    height: 41px;
+    text-decoration: none;
+    margin: 0 auto;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.btn-development:hover {
+    background: #AD1544;
+}
+
+.hoodiBuy {
+    background: #111111 no-repeat;
+    background-image: url(../img/hoodiBuy-bg.png);
+    background-position: top;
+    padding: 120px 145px;
+}
+
+.hoodiBuy__top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    margin-bottom: 94px;
+}
+
+.hoodiBuy__top-logo {
+    margin: 0 auto;
+    display: block;
+}
+
+.hoodiBuy__content-photo {
+    display: -ms-grid;
+    display: grid;
+    max-width: 512px;
+}
+
+.hoodiBuy__content-photo .slick-dots {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.hoodiBuy__content-photo .slick-dots li {
+    list-style: none;
+    margin-right: 13px;
+}
+
+.hoodiBuy__content-photo img {
+    width: 100%;
+}
+
+.hoodiBuy__content-photo .slick-dots li button {
+    background: #FFFFFF;
+    font-size: 0;
+    border: none;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    width: 21px;
+    height: 21px;
+    cursor: pointer;
+}
+
+.hoodiBuy__content-photo .slick-dots li:last-child {
+    margin-right: 0;
+}
+
+.hoodiBuy__content-photo .slick-dots li.slick-active button {
+    background: #AD1544;
+}
+
+.hoodiBuy__content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 81px 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 81px;
+}
+
+.hoodiBuy__content-main {}
+
+.hoodiBuy__content-main h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 31px;
+    color: #FFFFFF;
+    margin-bottom: 23px;
+}
+
+.hoodiBuy__content-main_price {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 45px;
+    color: #AD1544;
+}
+
+.hoodiBuy__content-main p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.hoodiBuy__content-main_size {
+    margin-top: 35px;
+}
+
+.hoodiBuy__content-main_size button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.hoodiBuy__content-main .btn-buy {
+    margin-left: 0;
+    margin-top: 40px;
+}
+
+#hidden {
+    background: none;
+    padding: 0;
+    padding-right: 40px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.fancybox-button svg path {
+    fill: #fff
+}
+
+.formOption {
+    width: 100%;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.fancybox-slide--html .fancybox-close-small {
+    top: -10px;
+    padding: 0;
+}
+
+.formOption h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.formOption form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    max-width: 432px;
+}
+
+.formOption form input {
+    background: #E5E5E5;
+    border-radius: 8px;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0 14px;
+    margin-bottom: 12px;
+}
+
+.formOption form input.formName {
+    max-width: 49%;
+    margin-right: 2%;
+}
+
+.formOption form input.formSurname {
+    max-width: 49%;
+}
+
+.formOption form input:last-child {
+    margin-bottom: 0;
+}
+
+.formOption form button {
+    background: #AD1544;
+    border-radius: 82px;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    border: none;
+    width: 176px;
+    height: 41px;
+    margin: 0 auto;
+    margin-top: 31px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.hoodiBuy_developer {
+    background: #fff no-repeat;
+    background-image: url(../img/hoodiBuy-bg-developer.png);
+}
+
+.hoodiBuy__content_developer h3,
+.hoodiBuy__content_developer p {
+    color: #000;
+}
+
+.hoodiBuy__content_developer .hoodiBuy__content-main_size svg rect {
+    fill: #E5E5E5
+}
+
+.hoodiBuy__content_developer .slick-dots li button {
+    background: #E5E5E5;
+}
+
+.hoodiBuy__content_developer .btn-buy {
+    color: #000000;
+}
+
+@media (max-width:990px) {
+    .hoodiBuy__content {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        grid-gap: 31px
+    }
+}
+
+@media (max-width:770px) {
+    .WithPremo h1 {
+        font-size: 60px;
+        line-height: 55px;
+    }
+    .hoodieShow__list,
+    .hoodieDevelopment__list {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+    .WithPremo,
+    .hoodiBuy {
+        padding: 115px 50px 50px;
+    }
+}
+
+@media (max-width:500px) {
+    .hoodieDevelopment,
+    .WithPremo,
+    .hoodiBuy {
+        padding: 50px 15px;
+    }
+    .formOption {
+        padding: 30px 10px;
+    }
+}
+
+@media (max-width:400px) {
+    .WithPremo h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .WithPremo {
+        padding: 50px 15px;
+    }
+    .hoodieShow__list {
+        position: initial;
+        left: none;
+        margin-right: 0;
+        transform: none;
+        padding: 0;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+    }
+}
+
+.sizeActive rect {
+    fill: #AD1544 !important;
+}
+
+.sizeActive path {
+    fill: #fff !important;
+}
